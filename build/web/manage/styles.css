@@ -1,0 +1,112 @@
+@charset "utf-8";
+div#wrapper {
+	width:995px;
+	margin:0px auto;
+	text-align:center;
+}
+body {
+	margin:0px auto;
+	text-align:center;
+	font-size:12px;
+	background-color:#ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+a {
+	color: #333333;
+	font-family: Verdana, sans-serif;
+	TEXT-DECORATION: none;
+}
+.nav {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.nav li {
+	position:relative;
+	font-size:12px;
+	float:left;
+	text-align:center;
+	padding:0px;
+	line-height:99px;
+}
+.nav a {
+	background:url(Background/images/nav1.gif) no-repeat left bottom;
+	width:80px;
+	display:block;
+	font-size:12px;
+	color:#000000;
+	height:99px;
+	text-decoration:none;
+}
+.nav a:hover {
+	background:url(Background/images/nav2.gif) bottom left;
+	background-repeat:no-repeat;
+	BACKGROUND-ATTACHMENT:scroll;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size:14px;
+	color: #444444;
+}
+.navCurrent {
+	font-weight:bold;
+	font-size:12px;
+	color:#000000;
+}
+.nav LI.navCurrent A {
+	font-weight:bold;
+	color:#000000;
+}
+
+cont-info
+{
+height:100px;
+position:relative;
+width:auto;
+}
+div#main-news{
+text-align:left;
+}
+.cont-info-rember {
+	BORDER-BOTTOM: #eaeaea 1px solid; BORDER-LEFT: #eaeaea 1px solid; BACKGROUND-COLOR: #fff; TEXT-INDENT: 20px; BORDER-TOP: #eaeaea 1px solid; BORDER-RIGHT: #eaeaea 1px solid;
+
+}
+
+.cont-info-rember .hd {
+	LINE-HEIGHT: 34px; BACKGROUND-COLOR: #f4f4f4; HEIGHT: 34px; color:#0099ff;
+	text-align:center;
+}
+#main-infor table td {
+	border:#0048cc 1px solid;
+	padding-left:20px;
+	padding-right:25px;
+	padding-top:10px;
+}
+.finish-area {
+	MARGIN: 10px auto; WIDTH: 670px; HEIGHT: auto
+}
+.finish-area TABLE {
+	MARGIN: 15px 0px; WIDTH: 100%;border:#f7f9fd 1px solid;
+}
+.finish-area TABLE TH {
+	TEXT-ALIGN: right; PADDING-LEFT: 5px; WIDTH: 255px; PADDING-RIGHT: 5px; FONT-SIZE: 14px; FONT-WEIGHT: normal; PADDING-TOP: 10px;height:30px;border:#f7f9fd 1px solid;
+}
+.finish-area TABLE TD {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: auto; PADDING-RIGHT: 5px; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 5px;border:#f7f9fd 1px solid;
+}
+.ipt-normal {
+border: #a0b4c5 1px solid;	WIDTH: 205px; FONT-WEIGHT: bold;HEIGHT: 26px;
+}
+.mft {
+	POSITION: relative; LINE-HEIGHT: 0px; WIDTH:100%;  HEIGHT: 10px; FONT-SIZE: 0px;
+	text-align:center;
+
+}
+div#footer {
+	clear:both;
+	position:relative;
+	border:#bebebe 1px solid;
+}
+#footer a {
+	text-decoration:underline;
+	color:#CCCCCC;
+}

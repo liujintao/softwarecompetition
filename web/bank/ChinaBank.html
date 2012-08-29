@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>注册新用户</TITLE>
+<META content="text/html; charset=GBK" http-equiv=Content-Type>
+<LINK rel=stylesheet type=text/css href="chinabank/style.css">
+</HEAD>
+<BODY>
+<div id="wrapper">
+  <table width="995" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td height="99" width="410"><img src="chinabank/images/logotitle.jpg"/></td>
+        <TD width="150px" background="chinabank/images/topback.jpg" >&nbsp;</td>
+        <TD background="chinabank/images/topback.jpg"><UL class=nav>
+            <LI ><A href="../index.jsp" target="_parent">首页</A> </LI>
+            <LI><A href="../intro/introFrame.html" target="_parent">简介</A> </LI>
+            <LI><A href="../infor/notice.jsp" target="_parent">信息</A> </LI>
+            <LI><A href="../service/cooperate.html" target="_parent">服务</A> </LI>
+            <LI><A href="#" target="_parent">论坛</A> </LI>
+          </UL></TD>
+      </tr>
+    </tbody>
+  </table>
+  <DIV class="content">
+    <div class="mhd">
+      <H1>网上银行 </H1>
+    </div>
+    <DIV class="mcont">
+      <FORM name=formbill action="chinabank/Send.jsp" method=post>
+        <DIV class="main-cont">
+          <DIV class="main-cont-tit">
+            <H2>收货人信息：</H2>
+          </DIV>
+          <table style="TABLE-LAYOUT: fixed" class="cont-tab" cellpadding="0"  cellspacing="0">
+            <!--DWLayoutTable-->
+            <tbody>
+              <tr >
+                <td width="288" class="td1">订单号：<span class="nes">*</span></td>
+                <td width="440" class="td2"><div class="fle">
+                    <input style="WIDTH: 205px; FONT-WEIGHT: bold" name="v_oid" 
+      class="inp ipt-normal" maxlength="64"  type="text">
+                  </div></td>
+                <td width="127" class=td3>&nbsp;</td>
+              </tr>
+              <tr >
+                <td height="46" valign="top" class="td1">收货人姓名：<span class="nes">*</span></td>
+                <td valign="top" class="td2" style="FONT-SIZE: 14px"><input name="v_rcvname" type="text" class="inp ipt-normal" maxlength="16"></td>
+                <td class=td3>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="44" valign="top" class=td1>收货人地址：<span class=nes>*</span></td>
+                <td valign="top" class=td2><input id="password" class="inp ipt-normal" maxlength="16" 
+      type="text" name="v_rcvaddr"></td>
+                <td class="td3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="44" valign="top" class=td1>收货人电话：<span class=nes>*</span></td>
+                <td valign="top" class=td2><input id="password" class="inp ipt-normal" maxlength="16" 
+      type="text" name="v_rcvtel"></td>
+                <td class="td3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="44" valign="top" class=td1>收货人电子邮编：<span class=nes>*</span></td>
+                <td valign="top" class=td2><input id="password" class="inp ipt-normal" maxlength="16" 
+      type="text" name="v_rcvemail"></td>
+                <td class="td3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="44" valign="top" class=td1>收货人电子邮件：<span class=nes>*</span></td>
+                <td valign="top" class=td2><input id="password" class="inp ipt-normal" maxlength="16" 
+      type="text" name="v_rcvaddr"></td>
+                <td class="td3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="44" valign="top" class=td1>收货人手机号：<span class=nes>*</span></td>
+                <td valign="top" class=td2><input  class="inp ipt-normal" maxlength="16" 
+      type="text" name="v_rcvmobile"></td>
+                <td class="td3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="44" valign="top" class=td1>备注1：<span class=nes>*</span></td>
+                <td valign="top" class=td2><input  type="text" class="inp ipt-normal"name="remark1" maxlength="16" ></td>
+                <td class="td3">&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+          <DIV class="main-cont-tit">
+            <H2>订货人信息：</H2>
+          </DIV>
+          <table style="TABLE-LAYOUT: fixed" class="cont-tab" cellpadding="0"  cellspacing="0">
+            <!--DWLayoutTable-->
+            <tbody>
+              <tr >
+                <td width="288" class="td1">订单号：<span class="nes">*</span></td>
+                <td width="440" class="td2"><div class="fle">
+                    <input style="WIDTH: 205px; FONT-WEIGHT: bold" name="v_oid" 
+      class="inp ipt-normal" maxlength="64"  type="text">
+                  </div></td>
+                <td width="127" class=td3>&nbsp;</td>
+              </tr>
+              <tr >
+                <td height="46" valign="top" class="td1">订货人姓名：<span class="nes">*</span></td>
+                <td valign="top" class="td2" style="FONT-SIZE: 14px"><input name="v_ordername" type="text" class="inp ipt-normal" maxlength="16"></td>
+                <td class=td3>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="44" valign="top" class=td1>订货人地址：<span class=nes>*</span></td>
+                <td valign="top" class=td2><input id="password" class="inp ipt-normal" maxlength="16" 
+      type="text" name="v_orderaddr"></td>
+                <td class="td3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="44" valign="top" class=td1>订货人电话：<span class=nes>*</span></td>
+                <td valign="top" class=td2><input id="password" class="inp ipt-normal" maxlength="16" 
+      type="text" name="v_ordertel"></td>
+                <td class="td3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="44" valign="top" class=td1>订货人电子邮编：<span class=nes>*</span></td>
+                <td valign="top" class=td2><input id="password" class="inp ipt-normal" maxlength="16" 
+      type="text" name="v_orderemail"></td>
+                <td class="td3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="44" valign="top" class=td1>订货人电子邮件：<span class=nes>*</span></td>
+                <td valign="top" class=td2><input id="password" class="inp ipt-normal" maxlength="16" 
+      type="text" name="v_orderaddr"></td>
+                <td class="td3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="44" valign="top" class=td1>订货人手机号：<span class=nes>*</span></td>
+                <td valign="top" class=td2><input  class="inp ipt-normal" maxlength="16" 
+      type="text" name="v_ordermobile"></td>
+                <td class="td3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="44" valign="top" class=td1>备注2：<span class=nes>*</span></td>
+                <td valign="top" class=td2><input  type="text" class="inp ipt-normal"name="remark2" maxlength="16" ></td>
+                <td class="td3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="44" valign="top" class=td1>订单总金额（元）：<span class=nes>*</span></td>
+                <td valign="top" class=td2><input  type="text" class="inp ipt-normal"input name="v_amount" maxlength="16" ></td>
+                <td class="td3">&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+          <DIV class=main-cont-tit>
+            <H2>服务条款</H2>
+          </DIV>
+          <TABLE style="TABLE-LAYOUT: fixed" class=cont-tab cellSpacing=0 cellPadding=0>
+            <TBODY>
+              <TR>
+                <TD class=td1>&nbsp;</TD>
+                <TD class=td2><LABEL></LABEL></TD>
+                <TD class=td3>&nbsp;</TD>
+              </TR>
+              <TR>
+                <TD class="td1">&nbsp;</TD>
+                <TD class="td2"><p>
+                    <input type="image" src="chinabank/images/submit.jpg" name="Submit">
+                </p></TD>
+                <TD 
+class="td3">&nbsp;</TD>
+              </TR>
+            </TBODY>
+          </TABLE>
+        </DIV>
+      </FORM>
+    </DIV>
+    <DIV class="mft"></DIV>
+  </DIV>
+  <DIV class="footer"><A href="" 
+target="_blank">关于我们</A>&nbsp;&nbsp;<A href="" 
+target="_blank">邮箱官方博客</A>&nbsp;&nbsp;&nbsp;&nbsp;<A 
+href="" 
+target=_blank>举报违法信息</A>&nbsp;&nbsp;<A href="/" 
+target=_blank>客户服务</A><BR>
+    <A href="" target=_blank>相关法律</A>&nbsp;&nbsp;|&nbsp;softqilu.com|&nbsp;版权所有&nbsp;&copy;&nbsp;1997-2009 |</DIV>
+</div>
+</BODY>
+</HTML>

@@ -1,0 +1,339 @@
+@charset "utf-8";
+#wrapper {
+	width:995px;
+	margin:0px auto;
+	text-align:left;
+}
+body {
+	margin:0px auto;
+	text-align:center;
+	font-size:12px;
+	background-color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+a {
+	color: #333333;
+	font-family: Verdana, sans-serif;
+	TEXT-DECORATION: none;
+}
+.nav {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.nav li {
+	position:relative;
+	font-size:12px;
+	float:left;
+	text-align:center;
+	padding:0px;
+	line-height:99px;
+}
+.nav a {
+	background:url(images/nav1.gif) no-repeat left bottom;
+	width:80px;
+	display:block;
+	font-size:12px;
+	color:#000000;
+	height:99px;
+	text-decoration:none;
+}
+.nav a:hover {
+	background:url(images/nav2.gif) bottom left;
+	background-repeat:no-repeat;
+	BACKGROUND-ATTACHMENT:scroll;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size:14px;
+	color: #444444;
+}
+.navCurrent {
+	font-weight:bold;
+	font-size:12px;
+	color:#000000;
+}
+.nav LI.navCurrent A {
+	font-weight:bold;
+	color:#000000;
+}
+.loginBox {
+	background:url(images/loginback.jpg) repeat-y left;
+	font-size:12px;
+}
+input {
+	PADDING-RIGHT: 1px;
+	PADDING-LEFT: 1px;
+	FONT-SIZE: 11px;
+	PADDING-TOP: 1px;
+	FONT-FAMILY: Tahoma, Verdana, "宋体";
+}
+.panel-login {
+	BORDER-RIGHT: #bebebe 1px solid;
+	BORDER-TOP: #bebebe 1px solid;
+	FONT-SIZE: 11px;
+	BORDER-LEFT:#bebebe 1px solid;
+	WIDTH: 80px;
+	BORDER-BOTTOM: #bebebe 1px solid;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	HEIGHT: 17px
+}
+.textnews {
+	PADDING-RIGHT: 33px;
+	PADDING-LEFT: 25px;
+	FONT-SIZE: 14px;
+	PADDING-BOTTOM: 15px;
+	COLOR: #333333;
+	LINE-HEIGHT: 17px;
+	PADDING-TOP: 15px;
+	FONT-FAMILY: Verdana, sans-serif;
+}
+.textnews_tit {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #0099ff;
+	LINE-HEIGHT: 15px;
+	FONT-FAMILY: Verdana, sans-serif;
+}
+.panel-content {
+	PADDING-LEFT: 30px
+}
+.panel-content a:hover {
+	display:block;
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+INPUT {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 160%; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+
+
+ {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 160%; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+TR {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 160%; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+TD {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 160%; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+
+.fle {
+	FLOAT: left
+}
+.fri {
+	FLOAT: right
+}
+.hide {
+	DISPLAY: none
+}
+.clear {
+	BACKGROUND-COLOR: transparent; HEIGHT: 0px; CLEAR: both; FONT-SIZE: 0px
+}
+
+.Cblack {
+	COLOR: #000
+}
+.Cgray {
+	COLOR: #999
+}
+.Cred {
+	COLOR: #c00
+}
+.Cwhite {
+	COLOR: #fff
+}
+.Cblue {
+	COLOR: #0483cc
+}
+
+.txtc {
+	TEXT-ALIGN: center
+}
+
+.nes {
+	LINE-HEIGHT: 30px; COLOR: #c00; FONT-SIZE: 14px
+}
+
+
+
+
+
+
+.Aenter {
+	BACKGROUND-IMAGE: url(../../admin/Background/images/bg.jpg); BACKGROUND-REPEAT: no-repeat
+}
+
+
+
+
+.content {
+	Z-INDEX: 444; MARGIN: 0px auto; WIDTH: 964px; HEIGHT: auto
+}
+.content .mft {
+	BACKGROUND-IMAGE:url(../../admin/Background/images/bg.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.content .mhd {
+	POSITION: relative; WIDTH: 964px; BACKGROUND-POSITION: -9px -4px; HEIGHT: 73px;
+	BACKGROUND-IMAGE:url(../../admin/Background/images/bg.jpg);BACKGROUND-REPEAT: no-repeat
+}
+.content .mcont {
+	TEXT-ALIGN: center; WIDTH: 964px;  HEIGHT: auto;
+	BACKGROUND-IMAGE: url(../../admin/Background/images/bg_y.gif); BACKGROUND-REPEAT: repeat-y;BACKGROUND-POSITION: -7px 0px;
+}
+.content .mft {
+	POSITION: relative; LINE-HEIGHT: 0px; WIDTH: 773px; BACKGROUND-POSITION: -9px -102px; HEIGHT: 10px; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.content .mhd .tit {
+	POSITION: absolute; LINE-HEIGHT: 16px; COLOR: #d3eafe; FONT-SIZE: 14px; TOP: 19px; LEFT: 55px
+}
+.main-cont {
+	PADDING-BOTTOM: 10px; MARGIN: 0px 0px; PADDING-LEFT: 0px; WIDTH: 793px; PADDING-RIGHT: 0px; PADDING-TOP: 10px; background-color:#fff;
+	height:100%;}
+.cont-tab {
+	WIDTH: 870px
+}
+.cont-tab TD {
+	PADDING-BOTTOM: 6px; LINE-HEIGHT: 30px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; VERTICAL-ALIGN: top; PADDING-TOP: 6px
+}
+.cont-tab TD.tit {
+	LINE-HEIGHT: 26px; PADDING-LEFT: 42px; FONT-SIZE: 12px
+}
+.cont-tab TD.td1 {
+	TEXT-ALIGN: right; WIDTH: 265px; FONT-SIZE: 14px
+}
+.cont-tab TD.td2 {
+	WIDTH: 255px
+}
+
+.cont-tab TD.td2 .sel {
+	WIDTH: 100%; FONT-SIZE: 14px
+}
+.ipt-normal {
+border: #a0b4c5 1px solid;	WIDTH: 205px; FONT-WEIGHT: bold;HEIGHT: 26px;
+}
+.cont-tab TD.td3 {
+	WIDTH: auto
+}
+.cont-tab TD.td3 .info {
+	POSITION: relative; HEIGHT: 20px
+}
+
+.main-cont-tit {
+	POSITION: relative; TEXT-ALIGN: left; LINE-HEIGHT: 30px; TEXT-INDENT: 15px; MARGIN: 20px 0px; BACKGROUND-POSITION: 0px 0px; HEIGHT: 30px;background-color:#f7f9fd;
+}
+.main-cont-tit H2 {
+	LINE-HEIGHT: 30px; FLOAT: left; COLOR: #007bbb; FONT-SIZE: 14px
+}
+.main-cont-tit A {
+	FONT-WEIGHT: normal
+}
+.main-cont-tit SPAN {
+	LINE-HEIGHT: 30px
+}
+
+
+
+
+
+.main-cont H3.Cred {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-SIZE: 14px; PADDING-TOP: 10px
+}
+.main-cont H3.Cred A {
+	FONT-SIZE: 14px; FONT-WEIGHT: normal
+}
+.footer {
+	Z-INDEX: 555; POSITION: relative; TEXT-ALIGN: center; LINE-HEIGHT: 250%; MARGIN: 20px 0px; COLOR: #888; CLEAR: both
+}
+.footer A {
+	COLOR: #888; TEXT-DECORATION: none
+}
+.footer A:hover {
+	TEXT-DECORATION: underline
+}
+
+
+
+
+
+
+.cont-info-rember {
+	BORDER-BOTTOM: #eaeaea 1px solid; BORDER-LEFT: #eaeaea 1px solid; BACKGROUND-COLOR: #fff; TEXT-INDENT: 20px; BORDER-TOP: #eaeaea 1px solid; BORDER-RIGHT: #eaeaea 1px solid
+}
+
+.cont-info {
+	BORDER-BOTTOM: #ccc 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 25px; BACKGROUND-COLOR: #fffef6; MARGIN: 30px 20px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 25px
+}
+.cont-info H1 {
+	BACKGROUND-IMAGE:  LINE-HEIGHT: 22px; PADDING-LEFT: 28px; BACKGROUND-REPEAT: no-repeat; COLOR: #13a907; FONT-SIZE: 20px
+}
+.cont-info-det {
+	PADDING-BOTTOM: 20px; LINE-HEIGHT: 30px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #000; FONT-SIZE: 14px; PADDING-TOP: 15px
+}
+.cont-info-rember .hd {
+	LINE-HEIGHT: 34px; BACKGROUND-COLOR: #f4f4f4; HEIGHT: 34px; COLOR: #000
+}
+.finish-area {
+	MARGIN: 10px auto; WIDTH: 670px; HEIGHT: auto
+}
+.finish-area TABLE {
+	MARGIN: 15px 0px; WIDTH: 100%;border:#f7f9fd 1px solid;
+}
+.finish-area TABLE TH {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: 255px; PADDING-RIGHT: 5px; FONT-SIZE: 14px; FONT-WEIGHT: normal; PADDING-TOP: 5px;height:30px;border:#f7f9fd 1px solid;
+}
+.finish-area TABLE TH A:hover{
+TEXT-DECORATION: underline;
+font-size:16px;
+}
+.finish-area TABLE TD {
+	TEXT-ALIGN: left;
+	PADDING-BOTTOM: 5px;
+	PADDING-LEFT: 5px;
+	WIDTH: auto;
+	PADDING-RIGHT: 5px;
+	FONT-SIZE: 14px;
+	FONT-WEIGHT: lighter;
+	PADDING-TOP: 5px;
+	border:#f7f9fd 1px solid;
+}
+.tdt {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; FONT-SIZE: 14px;0 PADDING-TOP: 0px;
+}
+
+
+
+
+
+textarea {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 160%; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif; FONT-SIZE: 12px; PADDING-TOP: 0px;border:#a0b4c5 1px solid;
+}
+INPUT {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 160%; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+select {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 160%; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif;  PADDING-TOP: 0px;color:#a0b4c5;
+}
+FORM {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 160%; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: verdana,Arial, Helvetica, sans-serif; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+
+
+cont-info h1
+{float:right;
+margin-right:100px;
+}
+
+H1 A{
+	LINE-HEIGHT: 22px;
+	PADDING-LEFT: 28px;
+	COLOR: #000000;
+	FONT-SIZE: 16px;
+}
+H1 A:hover{
+text-decoration:underline;}

@@ -1,0 +1,12 @@
+#news.txt
+driver=org.gjt.mm.mysql.Driver
+
+mysql.url=jdbc:mysql://localhost/web
+
+mysql.user=root
+
+mysql.password=anxin
+
+mysql.maxconn=1000
+
+logfile=C:\\ilog.txt

@@ -1,0 +1,113 @@
+@charset "utf-8";
+div#wrapper {
+	width:995px;
+	margin:0px auto;
+	text-align:left;
+}
+body {
+	margin:0px auto;
+	text-align:center;
+	font-size:12px;
+	background-color:#666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+a {
+	color: #333333;
+	font-family: Verdana, sans-serif;
+	TEXT-DECORATION: none;
+}
+.nav {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.nav li {
+	position:relative;
+	font-size:12px;
+	float:left;
+	text-align:center;
+	padding:0px;
+	line-height:99px;
+}
+.nav a {
+	background:url(images/nav1.gif) no-repeat left bottom;
+	width:80px;
+	display:block;
+	font-size:12px;
+	color:#000000;
+	height:99px;
+	text-decoration:none;
+}
+.nav a:hover {
+	background:url(images/nav2.gif) bottom left;
+	background-repeat:no-repeat;
+	BACKGROUND-ATTACHMENT:scroll;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size:14px;
+	color: #444444;
+}
+.navCurrent {
+	font-weight:bold;
+	font-size:12px;
+	color:#000000;
+}
+.nav LI.navCurrent A {
+	font-weight:bold;
+	color:#000000;
+}
+.loginBox {
+	background:url(images/loginback.jpg) repeat-y left;
+	font-size:12px;
+}
+input {
+	PADDING-RIGHT: 1px;
+	PADDING-LEFT: 1px;
+	FONT-SIZE: 11px;
+	PADDING-TOP: 1px;
+	FONT-FAMILY: Tahoma, Verdana, "宋体";
+}
+.panel-login {
+	BORDER-RIGHT: #bebebe 1px solid;
+	BORDER-TOP: #bebebe 1px solid;
+	FONT-SIZE: 11px;
+	BORDER-LEFT:#bebebe 1px solid;
+	WIDTH: 80px;
+	BORDER-BOTTOM: #bebebe 1px solid;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	HEIGHT: 17px
+}
+.textnews {
+	PADDING-RIGHT: 33px;
+	PADDING-LEFT: 25px;
+	FONT-SIZE: 14px;
+	PADDING-BOTTOM: 15px;
+	COLOR: #333333;
+	LINE-HEIGHT: 17px;
+	PADDING-TOP: 15px;
+	FONT-FAMILY: Verdana, sans-serif;
+}
+.textnews_tit {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	COLOR: #0099ff;
+	LINE-HEIGHT: 15px;
+	FONT-FAMILY: Verdana, sans-serif;
+}
+.panel-content {
+	PADDING-LEFT: 30px
+}
+.panel-content a:hover {
+	display:block;
+	text-decoration:underline;
+}
+div#footer{
+	clear:both;
+	position:relative;
+	border:#bebebe 1px solid;
+	font-size: 12px;
+}
+#footer a
+{text-decoration:underline;
+color:#0099ff;
+}
